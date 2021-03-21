@@ -50,7 +50,7 @@ objects:
               - /bin/bash
               - -c
               - curl -s 'localhost:8080'
-                | grep "Welcome to your static nginx application on OpenShift 4"
+                | grep "Welcome to your static nginx application on OpenShift 4.9"
         terminationGracePeriodSeconds: 60
     triggers:
     - imageChangeParams:
